@@ -4,7 +4,7 @@ from langchain.llms import OpenAI
 from langchain.chains import LLMChain
 #Pull in OpenAI API Key
 import os
-os.environ['OPENAI_API_KEY']='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'
+os.environ['OPENAI_API_KEY']='#YOURKEYHERE'
 #From LangChain import promptemplate
 from langchain import PromptTemplate
 template1="You are a naming consultant for new secret projects. What is a good codeword for a client project that is in the busines of {product}? Make it one single codeword"
