@@ -1,7 +1,7 @@
 #How to use different LLM Models with LangChain
 #First import HuggingFace Key
 import os
-os.environ['HUGGINGFACEHUB_API_TOKEN']="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"
+os.environ['HUGGINGFACEHUB_API_TOKEN']="#YOURKEYHERE"
 #Import HuggingFace module from LangChain
 from langchain import HuggingFaceHub
 #Make a new instance with Model from HuggingFace
